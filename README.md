@@ -22,19 +22,7 @@ Although this repo seems to be currently inactive, please bear in mind that we a
 - Updating and adding more UI features.
 - Extensively refactoring the documentation.
 
-[1]:
-A shim is a lightweight application which can wrap native APIs and provide an API to invoke various bluetooth functions.
-For every function, such as connection or pairing, the caller will invoke a separate process and execute the required function.
-The caller will be responsible for handling events and exit codes passed by the shim.
-
-[2]:
-A cross-platform daemon with a uniform protocol (currently MQTT) will be developed to facilitate communicating with the shim, and handle
-invoking bluetooth functions and communication with clients, using a proper pub/sub like mechanism (like DBus for example).
-
 #### Updates
-All development has now moved to [bluetuith-org](https://github.com/bluetuith-org).<br />
-This project will be moved to the organisation later.
-
 - A new Windows-based shim has been released at [bluetuith-shim-windows](https://github.com/bluetuith-org/bluetuith-shim-windows).
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/bluetuith.svg)](https://repology.org/project/bluetuith/versions)
