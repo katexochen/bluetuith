@@ -9,7 +9,7 @@ import (
 )
 
 // FunctionContext describes the context in which the
-// function is supoosed to be executed in.
+// function is supposed to be executed in.
 type FunctionContext string
 
 // The different context types for functions.
@@ -626,7 +626,7 @@ func hideplayer(set ...string) bool {
 	return true
 }
 
-// info retreives the selected device, and shows the device information.
+// info retrieves the selected device, and shows the device information.
 func info(set ...string) bool {
 	UI.QueueUpdateDraw(func() {
 		getDeviceInfo()
