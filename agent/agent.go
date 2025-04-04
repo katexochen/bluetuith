@@ -31,7 +31,7 @@ var (
 // Agent describes a bluez agent. It holds the dbus connection,
 // the pincode and passkey to be provided during authentication attempts.
 // This is mainly used to describe various authentication methods and export
-// them to the bluez DBus inteface.
+// them to the bluez DBus interface.
 type Agent struct {
 	conn    *dbus.Conn
 	pinCode string
