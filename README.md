@@ -37,6 +37,6 @@ Although this repo seems to be currently inactive, please bear in mind that we a
 - Mouse support
 
 ## Documentation
-The documentation is now hosted [here](https://darkhz.github.io/bluetuith)
+The documentation is now hosted [here](https://bluetuith-org.github.io/bluetuith/)
 
 The wiki is out-of-date.
